@@ -1,5 +1,5 @@
 import glob
-from track import Track, load_tracks, merge_tracks, change_volume, mix_tracks_together
+from track import load_tracks, mix_tracks_together
 
 if __name__ == '__main__':
 
