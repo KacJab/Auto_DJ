@@ -1,22 +1,5 @@
-import os
-import sys
-import time
-
-import librosa
-import matplotlib.pyplot as plt
-import pychorus
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import IPython.display as ipd
 import glob
-from itertools import cycle
 from track import Track, load_tracks, merge_tracks, change_volume, mix_tracks_together
-from playsound import playsound
-import vlc
-import time
-from pydub import AudioSegment
-import scipy
 
 if __name__ == '__main__':
 
